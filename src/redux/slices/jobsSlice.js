@@ -6,7 +6,7 @@ export const fetchJobs = createAsyncThunk(
   "jobs/fetchJobs",
   async (_, { dispatch, rejectWithValue }) => {
     try {
-      const response = await fetch("....../src/data.json");
+      const response = await fetch("..../data.json");
       const data = await response.json();
       console.log(data);
       return data;
