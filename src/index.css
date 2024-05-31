@@ -1,0 +1,14 @@
+#root {
+  --main-top-background-and-text: hsl(180, 29%, 50%);
+  --main-background: hsl(180, 52%, 96%);
+  --light-button: hsl(180, 31%, 95%);
+  --light-text: hsl(180, 8%, 52%);
+  --body-background: hsl(180, 14%, 20%);
+  --cards: hsl(0, 0%, 100%);
+}
+body {
+  font-family: "League Spartan", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500; /*+700*/
+  font-style: normal;
+}
